@@ -63,7 +63,7 @@ export default function LegalPage() {
               {
                 title: 'Complete Confidentiality',
                 items: [
-                  'Everything you share with me stays with me. No exceptions.',
+                  'Everything you share with me is treated as confidential, except in rare legal circumstances outlined below.',
                   'No notes, recordings, or documentation of our conversations.',
                   'No sharing with third parties under any circumstance.',
                   'No use of your information for marketing, research, or any other purpose.',
@@ -74,7 +74,7 @@ export default function LegalPage() {
                 items: [
                   "I don't collect personal data beyond what you choose to share.",
                   "No cookies, tracking, or analytics follow your activity.",
-                  "No WhatsApp conversation history is stored beyond the chat app itself.",
+                  "Conversations take place via WhatsApp, which is a third-party platform governed by its own privacy policies. I do not export, store, or archive conversations outside the app.",
                   "No contact list or email sharing.",
                 ],
               },
@@ -177,7 +177,7 @@ export default function LegalPage() {
             </h2>
           </FadeIn>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {[
               {
                 title: 'Not Therapy',
@@ -204,11 +204,15 @@ export default function LegalPage() {
                 title: 'Not Legal or Financial Advice',
                 description: 'I cannot advise on legal, tax, or financial matters.',
               },
+              {
+                title: 'Not Physical Intimacy',
+                description: 'This service does not involve any physical, romantic, or sexual interaction. Clear personal boundaries are maintained at all times.',
+              },
             ].map((item, idx) => (
               <SlideUp key={idx} delay={idx * 0.1}>
-                <div className="bg-dark-card rounded-2xl p-6 border border-dark-border">
+                <div className="bg-dark-card rounded-2xl p-6 border border-dark-border hover:border-accent-gold transition-colors">
                   <h3 className="text-lg font-semibold text-text-light mb-3">{item.title}</h3>
-                  <p className="text-text-muted font-light">{item.description}</p>
+                  <p className="text-text-muted font-light text-sm">{item.description}</p>
                 </div>
               </SlideUp>
             ))}
@@ -228,7 +232,7 @@ export default function LegalPage() {
           <SlideUp>
             <div className="space-y-6 text-text-muted font-light text-lg leading-relaxed">
               <p>
-                By engaging with this service, you take responsibility for your own wellbeing and safety.
+                By engaging with this service, you acknowledge and accept these boundaries as part of a mutual agreement of trust and responsibility.
               </p>
               <ul className="space-y-4">
                 <li className="flex gap-4 items-start">
@@ -253,7 +257,7 @@ export default function LegalPage() {
                 <li className="flex gap-4 items-start">
                   <span className="text-accent-gold flex-shrink-0 text-2xl">•</span>
                   <span>
-                    You agree not to hold me liable for outcomes you experience after our time together.
+                    You recognize that this relationship is built on mutual respect, clear boundaries, and shared accountability for the integrity of our work together.
                   </span>
                 </li>
               </ul>
