@@ -247,10 +247,6 @@ export default function LegalConsentPage() {
                   </li>
                   <li className="flex gap-3 items-start">
                     <span className="text-accent-gold flex-shrink-0">✗</span>
-                    <span className="text-text-muted font-light">No romantic or sexual interaction</span>
-                  </li>
-                  <li className="flex gap-3 items-start">
-                    <span className="text-accent-gold flex-shrink-0">✗</span>
                     <span className="text-text-muted font-light">No personal relationship outside of sessions</span>
                   </li>
                   <li className="flex gap-3 items-start">
