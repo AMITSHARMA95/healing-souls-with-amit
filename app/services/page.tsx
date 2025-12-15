@@ -30,12 +30,12 @@ const SERVICES = [
       'Gentle exploration of your emotions',
       'Someone who sits with you through it all',
     ],
-    whatYouGain: [
-      'Clarity on your emotions',
-      'A lighter heart',
-      'Renewed sense of self',
-      'Hope for your future',
-      'The realization that you will survive',
+    whatYouMayExperience: [
+      'A space to process emotions at your pace',
+      'Feeling held and witnessed in your pain',
+      'Permission to grieve',
+      'Moments of lightness or peace',
+      'The experience of being truly heard',
     ],
   },
   {
@@ -56,12 +56,12 @@ const SERVICES = [
       'Help sorting through conflicting emotions',
       'Witness to your strength and resilience',
     ],
-    whatYouGain: [
-      'Acceptance of the new reality',
-      'Clarity on moving forward',
-      'Reconnection with yourself',
-      'Understanding of your needs',
-      'Hope for what comes next',
+    whatYouMayExperience: [
+      'Space to process the loss and transformation',
+      'A witness to your identity reconstruction',
+      'Moments of clarity amidst confusion',
+      'Feeling supported through the transition',
+      'A sense of your own resilience',
     ],
   },
   {
@@ -82,12 +82,12 @@ const SERVICES = [
       'Permission to heal at your pace',
       'Compassionate witnessing of your journey',
     ],
-    whatYouGain: [
-      'A sense of safety and stability',
-      'Ability to process your experience',
-      'Reduced emotional weight',
-      'Clarity on your path forward',
-      'Reconnection with yourself',
+    whatYouMayExperience: [
+      'A grounded, safe space to explore',
+      'Permission to feel without judgment',
+      'A compassionate presence during difficult moments',
+      'Understanding and validation of your experience',
+      'Gradual moments of ease and relief',
     ],
   },
   {
@@ -108,12 +108,12 @@ const SERVICES = [
       'Reflection without judgment',
       'Space to discover your own wisdom',
     ],
-    whatYouGain: [
-      'Clarity on who you truly are',
-      'Understanding of your values',
-      'A sense of direction',
-      'Confidence in your choices',
-      'Reconnection with your purpose',
+    whatYouMayExperience: [
+      'Deeper understanding of yourself',
+      'Clarity on what truly matters to you',
+      'A sense of direction and possibility',
+      'Confidence in moving forward',
+      'Connection with your own inner wisdom',
     ],
   },
 ]
@@ -177,11 +177,11 @@ export default function ServicesPage() {
                   </ul>
                 </div>
 
-                {/* What You Gain */}
+                {/* What You May Experience */}
                 <div className="mb-8">
-                  <h3 className="text-xl font-light text-accent-gold mb-4">What You Gain:</h3>
+                  <h3 className="text-xl font-light text-accent-gold mb-4">What You May Experience:</h3>
                   <ul className="space-y-2">
-                    {service.whatYouGain.map((item, i) => (
+                    {service.whatYouMayExperience.map((item, i) => (
                       <li key={i} className="flex items-start gap-3 text-text-muted font-light">
                         <span className="text-accent-gold flex-shrink-0 mt-1">✨</span>
                         <span>{item}</span>
@@ -190,6 +190,11 @@ export default function ServicesPage() {
                   </ul>
                 </div>
 
+                {/* Disclaimer Note */}
+                <p className="text-xs text-text-muted mb-6 italic">
+                  *Experiences vary from person to person. This is emotional listening, not therapy.
+                </p>
+
                 {/* CTA */}
                 <a
                   href={WHATSAPP_URL}
@@ -197,7 +202,7 @@ export default function ServicesPage() {
                   rel="noopener noreferrer"
                   className="inline-block px-8 py-3 bg-accent-gold text-dark font-semibold rounded-xl hover:bg-opacity-90 transition-all hover:scale-105"
                 >
-                  Request a Confidential Session
+                  Connect Privately on WhatsApp
                 </a>
               </div>
 
@@ -287,12 +292,12 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Guarantee */}
+      {/* Promise & Legal Notice */}
       <section className="py-20 px-4 bg-dark-card border-y border-dark-border">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-light mb-8 text-text-light">My Promise to You</h2>
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-3xl font-light mb-8 text-text-light text-center">What I Offer You</h2>
 
-          <div className="space-y-6 text-text-muted font-light text-lg">
+          <div className="space-y-6 text-text-muted font-light text-lg mb-12">
             <p className="flex items-center justify-center gap-3">
               <span className="text-accent-gold text-2xl">🔒</span>
               <span>100% confidentiality. What you share stays with me.</span>
@@ -303,6 +308,18 @@ export default function ServicesPage() {
             </p>
             <p className="flex items-center justify-center gap-3">
               <span className="text-accent-gold text-2xl">⏰</span>
+              <span>Your time is honored. We move at your pace.</span>
+            </p>
+            <p className="flex items-center justify-center gap-3">
+              <span className="text-accent-gold text-2xl">🎯</span>
+              <span>Presence and emotional listening. Full attention to you.</span>
+            </p>
+          </div>
+
+          {/* Legal Notice */}
+          <div className="bg-dark rounded-xl p-6 border border-dark-border text-left">
+            <p className="text-xs text-text-muted leading-relaxed">
+              <span className="font-medium text-accent-gold">Important:</span> This service offers emotional listening and support only. It does not provide medical, psychological, psychiatric, or therapeutic treatment. If you are experiencing a mental health crisis or emergency, please contact local emergency services or a qualified healthcare professional.
               <span>Your time is honored. We move at your pace.</span>
             </p>
             <p className="flex items-center justify-center gap-3">

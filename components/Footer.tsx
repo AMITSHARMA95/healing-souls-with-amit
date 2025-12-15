@@ -19,7 +19,7 @@ export default function Footer() {
               HEALING SOULS
             </h3>
             <p className="text-text-muted text-sm leading-relaxed font-light">
-              A private space for emotional listening and deep presence. 100% confidential, no judgment, pure witness.
+              A private space for emotional listening and human presence. 100% confidential, no judgment, pure witness.
             </p>
             <div className="flex gap-3 mt-6">
               <div className="w-2 h-2 bg-accent-gold rounded-full animate-pulse"></div>
@@ -41,8 +41,8 @@ export default function Footer() {
             <p className="text-text-heading font-light text-sm">Information</p>
             <a href="/about" className="text-text-muted hover:text-accent-gold text-sm transition-colors duration-300 font-light">About Amit</a>
             <a href="/reviews" className="text-text-muted hover:text-accent-gold text-sm transition-colors duration-300 font-light">Testimonials</a>
-            <a href="/legal" className="text-text-muted hover:text-accent-gold text-sm transition-colors duration-300 font-light">Privacy & Discretion</a>
-            <a href="/contact" className="text-text-muted hover:text-accent-gold text-sm transition-colors duration-300 font-light">FAQ</a>
+            <a href="/legal-consent" className="text-text-muted hover:text-accent-gold text-sm transition-colors duration-300 font-light">Legal & Consent</a>
+            <a href="/legal" className="text-text-muted hover:text-accent-gold text-sm transition-colors duration-300 font-light">Privacy</a>
           </div>
 
           {/* Connect */}
@@ -65,6 +65,17 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="border-t border-dark-border my-12"></div>
+
+        {/* Legal Disclaimer */}
+        <div className="bg-dark-card rounded-lg p-6 mb-12 border border-dark-border">
+          <h4 className="font-semibold text-text-light text-xs tracking-wider mb-3 block">LEGAL DISCLAIMER</h4>
+          <p className="text-xs text-text-muted leading-relaxed space-y-2">
+            <span className="block">Healing Souls with Amit provides emotional listening, human presence, and life guidance only. This service is NOT therapy, counseling, or medical, psychological, psychiatric, or legal treatment.</span>
+            <span className="block">I do not diagnose, treat, cure, or claim to heal any condition. Experiences vary. No guarantees.</span>
+            <span className="block">For mental health crises or emergencies, contact local emergency services or a qualified professional immediately.</span>
+            <span className="block">All sessions are confidential. Recording requires prior consent of both parties.</span>
+          </p>
+        </div>
 
         {/* Bottom */}
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">

@@ -29,8 +29,7 @@ export default function PrivateDayPage() {
 
           <SlideUp delay={0.2} duration={1}>
             <p className="text-lg md:text-xl text-text-muted font-light leading-relaxed max-w-2xl mx-auto">
-              This is not an hourly session. This is a full day of presence. Talking, walking, sitting in
-              silence — if needed.
+              A full day of presence: walking, talking, sitting in silence—if needed. Delhi-based offering only.
             </p>
           </SlideUp>
         </div>
@@ -81,20 +80,19 @@ export default function PrivateDayPage() {
         </div>
       </section>
 
-      {/* Why Full Day */}
+      {/* Why Full Day - Updated */}
       <section className="py-24 px-4 bg-dark-card">
         <div className="max-w-4xl mx-auto">
           <FadeIn>
             <h2 className="text-4xl md:text-5xl font-serif font-light mb-12 text-text-light text-center">
-              Why a Full Day Changes Things
+              Why a Full Day Creates Space
             </h2>
           </FadeIn>
 
           <div className="space-y-8 text-text-muted font-light text-lg leading-relaxed">
             <SlideUp delay={0.1}>
               <p>
-                A one-hour session is enough to talk about the problem. But healing doesn't happen in one
-                hour. Trust doesn't build in one hour. Real presence takes time.
+                A one-hour session is enough to talk about what's happening. But emotional presence takes time. Trust doesn't build in one hour. Being truly witnessed takes time.
               </p>
             </SlideUp>
 
@@ -113,7 +111,7 @@ export default function PrivateDayPage() {
                   <li className="flex gap-4 items-start">
                     <span className="text-accent-gold flex-shrink-0 text-2xl">•</span>
                     <span>
-                      You can cry, and then recover, and then cry again. It's not rushed into a tissue box.
+                      You can feel what you're feeling, and then recover, and then feel again. It's not rushed.
                     </span>
                   </li>
                   <li className="flex gap-4 items-start">
@@ -125,7 +123,7 @@ export default function PrivateDayPage() {
                   <li className="flex gap-4 items-start">
                     <span className="text-accent-gold flex-shrink-0 text-2xl">•</span>
                     <span>
-                      You experience what it's like to be truly seen. Not in a clinical way. Just... seen.
+                      You experience what it's like to be truly seen and heard. Not clinically. Just... witnessed.
                     </span>
                   </li>
                 </ul>
@@ -134,8 +132,7 @@ export default function PrivateDayPage() {
 
             <SlideUp delay={0.4}>
               <p>
-                By the end of the day, you won't have "solved" anything. But you'll feel less alone. And
-                sometimes, that's the most powerful medicine.
+                By the end of the day, you won't have "solved" anything. But you'll feel less alone. And sometimes, that's exactly what's needed.
               </p>
             </SlideUp>
           </div>
@@ -188,23 +185,23 @@ export default function PrivateDayPage() {
               },
               {
                 label: 'Location',
-                value: 'Delhi (parks, cafes, quiet spaces—we choose together)',
+                value: 'Delhi only. Parks, cafes, or quiet spaces—we choose together.',
               },
               {
-                label: 'Privacy',
-                value: 'Completely confidential. No notes, no sharing, no judgment.',
+                label: 'Privacy & Recording',
+                value: 'Completely confidential. No notes, no sharing, no judgment. No recording without mutual written consent.',
               },
               {
-                label: 'Investment',
-                value: 'Discuss privately on WhatsApp. Worth it for someone serious.',
+                label: 'Non-Refundable',
+                value: 'Sessions are non-refundable once confirmed.',
+              },
+              {
+                label: 'What This Is',
+                value: 'Emotional listening and human presence. This is NOT therapy, counseling, or medical treatment.',
               },
               {
                 label: 'What to Bring',
                 value: 'Yourself. Comfort shoes. We\'ll handle food and drinks.',
-              },
-              {
-                label: 'What Happens After',
-                value: 'You can follow up anytime with questions or just to talk. No limits.',
               },
             ].map((item, idx) => (
               <SlideUp key={idx} delay={idx * 0.1}>

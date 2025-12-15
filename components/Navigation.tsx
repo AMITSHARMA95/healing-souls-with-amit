@@ -18,6 +18,7 @@ const NAV_LINKS: NavLink[] = [
   { href: '/services', label: 'Services' },
   { href: '/private-day', label: 'Private Day' },
   { href: '/reviews', label: 'Reviews' },
+  { href: '/legal-consent', label: 'Legal & Consent' },
   { href: '/legal', label: 'Privacy' },
 ]
 

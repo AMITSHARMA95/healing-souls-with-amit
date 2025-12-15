@@ -266,6 +266,70 @@ export default function LegalPage() {
         </div>
       </section>
 
+      {/* Comprehensive Legal Disclaimer */}
+      <section className="py-24 px-4 bg-dark-card border-y border-dark-border">
+        <div className="max-w-4xl mx-auto">
+          <FadeIn>
+            <h2 className="text-4xl md:text-5xl font-serif font-light mb-12 text-text-light text-center">
+              Full Legal Disclaimer
+            </h2>
+          </FadeIn>
+
+          <SlideUp>
+            <div className="bg-dark rounded-xl p-10 border border-dark-border space-y-6">
+              <div>
+                <h3 className="text-lg font-semibold text-text-light mb-3">Service Definition</h3>
+                <p className="text-text-muted font-light leading-relaxed">
+                  Healing Souls with Amit provides emotional listening, human presence, and life guidance only.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold text-text-light mb-3">What This Service Is NOT</h3>
+                <p className="text-text-muted font-light leading-relaxed">
+                  This service is NOT therapy, counseling, or medical, psychological, psychiatric, or legal treatment.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold text-text-light mb-3">No Medical Claims</h3>
+                <p className="text-text-muted font-light leading-relaxed">
+                  I do not diagnose, treat, cure, or claim to heal any medical or mental health condition.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold text-text-light mb-3">No Guarantees</h3>
+                <p className="text-text-muted font-light leading-relaxed">
+                  Experiences and outcomes vary from person to person. No guarantees are offered or implied regarding your experience or any results.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold text-text-light mb-3">Mental Health Emergencies</h3>
+                <p className="text-text-muted font-light leading-relaxed">
+                  If you are experiencing a mental health crisis, suicidal thoughts, self-harm urges, or require medical or psychiatric support, please contact local emergency services or a qualified healthcare professional immediately.
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-lg font-semibold text-text-light mb-3">Confidentiality & Recording</h3>
+                <p className="text-text-muted font-light leading-relaxed">
+                  All sessions are private and confidential. Sessions may be recorded only with the prior written consent of both parties.
+                </p>
+              </div>
+
+              <div className="pt-6 border-t border-dark-border">
+                <h3 className="text-lg font-semibold text-text-light mb-3">Acknowledgment</h3>
+                <p className="text-text-muted font-light leading-relaxed">
+                  By engaging with this service, you acknowledge and accept these terms. You understand the limitations of this service and take full responsibility for any decisions made based on our conversations.
+                </p>
+              </div>
+            </div>
+          </SlideUp>
+        </div>
+      </section>
+
       {/* Contact for Questions */}
       <section className="py-24 px-4 bg-dark">
         <div className="max-w-3xl mx-auto text-center">

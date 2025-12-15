@@ -39,8 +39,7 @@ export default function Home() {
           {/* Subtext */}
           <SlideUp delay={0.2} duration={1}>
             <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-text-muted mb-10 md:mb-16 max-w-3xl mx-auto leading-relaxed font-light px-2">
-              For individuals who value privacy, discretion, and one-on-one human presence during
-              the most difficult phases of life.
+              For individuals who value privacy, discretion, and one-on-one human presence during the most difficult phases of life.
             </p>
           </SlideUp>
 
@@ -93,10 +92,10 @@ export default function Home() {
           <SlideUp delay={0.2}>
             <div className="space-y-6 md:space-y-8 mb-10 md:mb-16">
               <p className="text-text-muted text-base md:text-lg lg:text-xl leading-relaxed font-light">
-                Life throws us curveballs. Relationships end. Dreams shift. Trauma lingers. Professional dreams crumble. And in those moments, we don't need judgment—we need <span className="text-accent-gold">presence</span>.
+                Life throws us curveballs. Relationships end. Dreams shift. Professional dreams crumble. And in those moments, we don't need judgment—we need <span className="text-accent-gold">presence</span>.
               </p>
               <p className="text-text-muted text-lg md:text-xl leading-relaxed font-light">
-                I'm here to listen deeply, without rushing, without fixing, without expecting anything in return. Your story matters. Your pain matters. <span className="text-accent-gold">You matter.</span>
+                I'm here to listen deeply, without rushing, without fixing, without expecting anything in return. Your story matters. Your experience matters. <span className="text-accent-gold">You matter.</span>
               </p>
             </div>
           </SlideUp>
