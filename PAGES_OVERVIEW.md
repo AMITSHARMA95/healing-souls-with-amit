@@ -1,4 +1,3 @@
-# Navigation Map - 9 Pages Total
 
 ## Main Navigation Links (6 visible)
 ```
