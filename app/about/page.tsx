@@ -32,14 +32,6 @@ export default function AboutPage() {
           </p>
           <div className="flex justify-center gap-6">
             <div className="text-center">
-              <div className="text-accent-gold text-4xl font-light mb-2">500+</div>
-              <p className="text-text-muted text-sm font-light">People Witnessed</p>
-            </div>
-            <div className="text-center">
-              <div className="text-accent-gold text-4xl font-light mb-2">10+</div>
-              <p className="text-text-muted text-sm font-light">Years of Practice</p>
-            </div>
-            <div className="text-center">
               <div className="text-accent-gold text-4xl font-light mb-2">100%</div>
               <p className="text-text-muted text-sm font-light">Confidential</p>
             </div>
